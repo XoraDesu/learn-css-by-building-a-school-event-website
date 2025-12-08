@@ -1,0 +1,491 @@
+@font-face {
+    font-family: inter;
+    src: url(./assets/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: quaxcite;
+    src: url(./assets/fonts/Quaxcite-Font/Quaxcite.ttf);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: black;
+    padding: 0;
+    margin: 0;
+}
+
+strong {
+    font-weight: 900;
+}
+
+/* -----------------------ini hero section ya guys----------------------- */
+
+.hero-section {
+    padding: 0;
+    background-color: black;
+    height: 100%;
+    font-family: 'inter', sans-serif;
+}
+
+.hero-section div {
+    color: white;
+}
+
+.hero-logo-section {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#hero-logo {
+    width: 56px;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero p {
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-size: 56.48px;
+    padding: 0;
+    margin: 0;
+    font-weight: 900;
+    font-family: 'inter', sans-serif;
+}
+
+.momentum {
+    background: url(./assets/pictures/zhen-yao-YFtWbyck9So-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+    font-size: 292.51px;
+    font-weight: 900;
+    font-family: 'inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    animation: fadeInUp 1s ease-out forwards;
+
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 189px;
+    margin-bottom: 150px;
+}
+
+.cta p {
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.cta-btn button {
+    width: 400px;
+    height: 100px;
+    border-radius: 50px;
+    font-family: 'inter', sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.button1 {
+    background: white;
+    color: black;
+    border: 0px solid;
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+.button2 {
+    background: black;
+    color: white;
+    border: 2px solid white;
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+.button1:hover {
+    background: black;
+    color: white;
+    border: 2px solid white;
+    transition: all 0.5s ease-in-out;
+}
+
+.button2:hover {
+    background: white;
+    color: black;
+    border: 0px solid;
+    transition: all 0.5s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* -----------------------sampe sini----------------------- */
+
+/* -----------------------ini about section ya guys----------------------- */
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    height: 100%;
+}
+
+#about-logo {
+    height: 300px;
+    width: 300px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px;
+}
+
+
+
+.row2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 237px;
+}
+
+.article1,
+.article2,
+.article3 {
+    color: white;
+    width: 600px;
+    font-size: 24px;
+    font-family: 'inter', sans-serif;
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+/* -----------------------sampe sini----------------------- */
+
+/* -------------------ini schedule section ya guys-------------------- */
+.schedule-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    height: 1080px;
+}
+
+.wrap {
+    color: white;
+    width: 1500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-schedule {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header1 {
+    font-family: 'quaxcites', sans-serif;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+    margin-bottom: 19px;
+}
+
+.bottom-line {
+    background-color: white;
+    height: 20px;
+    width: 890px;
+    margin: 0;
+    border-radius: 50px;
+}
+
+.schedules {}
+
+.info-header {
+    display: flex;
+    justify-content: space-between;
+    width: 1118px;
+    margin-top: 79px;
+    margin-left: 191px;
+    margin-right: 191px;
+    font-size: 24px;
+    font-family: 'quaxcite', sans-serif;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.schedule-list {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    font-family: 'quaxcite', sans-serif;
+    margin: 0;
+    padding-left: 19px;
+    padding-right: 19px;
+    border-radius: 50px;
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+/* -----------------------sampe sini----------------------- */
+
+/* ---------------------ini register section ya guys------------------- */
+
+.register-section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 257px;
+    padding-right: 257px;
+    padding-top: 32px;
+    background-color: black;
+}
+
+.header-register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-line1 {
+    background-color: white;
+    height: 20px;
+    width: 1248px;
+    margin: 0;
+    border-radius: 50px;
+    color: white;
+    margin-top: -20px;
+}
+
+
+.register {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 89px;
+}
+
+.header2 {
+    color: white;
+    font-size: 48px;
+    font-family: 'quaxcite', sans-serif;
+    text-align: center;
+}
+
+.header3 {
+    font-size: 24px;
+    color: white;
+    font-family: 'quaxcite', sans-serif;
+    text-align: center;
+}
+
+#register-img {
+    width: 427px;
+    height: 604px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+#register-img:hover {
+    transform: scale(1.05);
+} 
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 711px;
+    gap: 39px;
+}
+
+input {
+    background-color: black;
+    width: 711px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid white;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'quaxcite', sans-serif;
+}
+
+input::placeholder {
+    color: white;
+    font-family: 'quaxcite', sans-serif;
+    text-align: center;
+    font-size: 16px;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+.hidden-input {
+    display: none;
+}
+
+.custom-upload {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 693px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'quaxcite', sans-serif;
+    border: 0px solid;
+}
+
+select {
+    width: 733px;
+    height: 40px;
+    border-radius: 50px;
+    border: 0px solid;
+    background-color: white;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'quaxcite', sans-serif;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+option {
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
+
+input[type="checkbox"] {
+    padding: 0;
+    margin-top: -10.5px;
+    width: 20px;
+}
+
+.agreement-section {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    border: 1px solid;
+    border-radius: 50px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    gap: 20px;
+    width: 650px;
+}
+
+.agree1, .agree2 {
+    display: flex;
+}
+
+input[type="checkbox"]#agreement1, input[type="checkbox"]#agreement2{
+    cursor: pointer;
+}
+
+label[for="agreement1"], label[for="agreement2"] {
+  cursor: pointer;
+}
+
+#submit {
+    display: none;
+}
+
+.custom-upload2 {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'quaxcite', sans-serif;
+    border: 0px solid;
+}
+
+.custom-upload2:hover {
+    padding: 10px 20px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'quaxcite', sans-serif;
+    border: 1px solid white;
+}
+
+/* -----------------------sampe sini----------------------- */
+
+/* ------------------------ini galery section ya guys------------------ */
+
+.header-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-line2 {
+    background-color: white;
+    height: 20px;
+    width: 1437px;
+    margin: 0;
+    border-radius: 50px;
+    color: white;
+    margin-top: -20px;
+}
+
+/* -----------------------sampe sini----------------------- */
+
+/* ---------------ini footer ya guys-------------- */
+
+footer {
+    color: white;
+    background: black;
+}
+
+/* ------------------sampe sini---------------- */
