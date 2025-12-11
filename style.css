@@ -510,6 +510,7 @@ label[for="agreement1"], label[for="agreement2"] {
     font-family: 'quaxcites';
     top: -10px;
     left: -50px;
+    z-index: 10;
 }
 
 .card-description {
@@ -523,6 +524,7 @@ label[for="agreement1"], label[for="agreement2"] {
     border-radius: 50px;
     height: 432px;
     object-fit: cover;
+    animation: fadeInUp 1s ease-out forwards;
 }
 
 .card1 {
