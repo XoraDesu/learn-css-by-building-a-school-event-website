@@ -489,13 +489,64 @@ label[for="agreement1"], label[for="agreement2"] {
 
 .gallery-section__content {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     color: #fff;
     font-size: 30px;
-    /* background-color: #fff; */
     height: 100%;
+    width: 1606.6px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.num-of-content {
+    position: absolute;
+    font-size: 48px;
+    font-weight: 300;
+    font-family: 'quaxcites';
+    top: -10px;
+    left: -50px;
+}
+
+.card-description {
+    font-size: 20px;
+    font-family: 'inter', sans-serif;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+.card>img {
+    border-radius: 50px;
+    height: 432px;
+    object-fit: cover;
+}
+
+.card1 {
+    width: 302px;
+}
+
+.card1>img {
+    width: 243.08px;
+}
+
+.card2 {
+    width: 396.6px;
+}
+
+.card2>img {
+    width: 345.6px;
+}
+
+.card3 {
+    width: 396.6px;
+}
+
+.card3>img {
+    width: 345.6px;
 }
 
 /* -----------------------sampe sini----------------------- */
@@ -507,6 +558,7 @@ footer {
     background: black;
     display: flex;
     justify-content: space-between;
+    padding: 0 20px;
 }
 
 .right-footer {
@@ -558,6 +610,11 @@ footer {
     font-family: 'inter', sans-serif;
     display: flex;
     flex-direction: column;
+}
+
+.icons {
+    display: flex;
+    gap: 31px;
 }
 
 /* ------------------sampe sini---------------- */
